@@ -1,6 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
 
+"""
+EXAMPLE: import a class from a subfolder
+"""
 from people import employee
 e = employee.Employee()
 
