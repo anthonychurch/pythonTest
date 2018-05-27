@@ -12,7 +12,7 @@ e = employee.Employee()
 In this case the @app.route('/') decorator is calling the app.route('/')(index)().
 """
 @app.route('/')
-def hello_world():
+def confusion():
   
   return 'Hello, World!'
 
