@@ -12,7 +12,7 @@ e = employee.Employee()
 In this case the @app.route('/') decorator is calling the app.route('/')(index)().
 """
 @app.route('/')
-def home():
+def hello_world():
   return 'Hello, World!'
 
 if __name__ == '__main__':
