@@ -13,7 +13,7 @@ In this case the @app.route('/') decorator is calling the app.route('/')(index)(
 """
 @app.route('/')
 def home():
-  user = e.username
+  user = e.user
   return 'stuff'
 
 if __name__ == '__main__user':
