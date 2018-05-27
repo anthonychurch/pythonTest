@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-from test import *
+from test import test
 t = test.Test()
 
 @app.route('/')
