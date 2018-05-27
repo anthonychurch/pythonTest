@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 from people import employee
-#t = test.Test()
+e = employee.Employee()
 
 @app.route('/')
 def hello_world():
