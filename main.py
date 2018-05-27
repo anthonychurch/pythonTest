@@ -2,11 +2,15 @@ from flask import Flask
 app = Flask(__name__)
 
 """
-EXAMPLE: import a class from a subfolder
+Import a class from a subfolder and instantiating the class.
 """
-from people import employee
+from people import employee.
 e = employee.Employee()
 
+"""
+@app.route('/') is a decorator.
+In this case the @app.route('/') decorator is calling the app.route('/')(index)().
+"""
 @app.route('/')
 def hello_world():
   
