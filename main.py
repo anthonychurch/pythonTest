@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-from people import Employee
+from people import employee
 #t = test.Test()
 
 @app.route('/')
