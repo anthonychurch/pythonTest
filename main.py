@@ -5,6 +5,7 @@ import test
 
 @app.route('/')
 def hello_world():
+  t = test.test()
   return 'Hello, World!'
 
 if __name__ == '__main__':
