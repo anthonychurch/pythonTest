@@ -4,7 +4,7 @@ app = Flask(__name__)
 #"""
 #Import a class from a subfolder and instantiating the class.
 #"""
-#from people import employee.
+from people import employee.
 #e = employee.Employee()
 
 #"""
