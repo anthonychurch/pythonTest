@@ -1,8 +1,8 @@
 from flask import Flask
 app = Flask(__name__)
 
-from test import test
-t = test.Test()
+from people import Employee
+#t = test.Test()
 
 @app.route('/')
 def hello_world():
