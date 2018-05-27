@@ -12,7 +12,7 @@ app = Flask(__name__)
 #In this case the @app.route('/') decorator is calling the app.route('/')(index)().
 #"""
 @app.route('/')
-def hello_world():
+def home():
   return 'Hello, World!'
 
 if __name__ == '__main__':
